@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prasun Dev Pal | B.Tech CSE | Aspiring Software Developer</title>
+  <meta name="description" content="Prasun Dev Pal — B.Tech CSE Student at RV Institute of Technology. Passionate about Software Development, DSA, and Cybersecurity.">
+  <meta name="author" content="Prasun Dev Pal">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Space+Mono:wght@400;700&family=Caveat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== LOADER ===== -->
+  <div class="loader-overlay">
+    <div class="loader-shapes">
+      <div class="loader-shape loader-shape-1"></div>
+      <div class="loader-shape loader-shape-2"></div>
+      <div class="loader-shape loader-shape-3"></div>
+    </div>
+    <div class="loader-wrapper">
+      <div class="loader-letter">P</div>
+      <div class="loader-letter">D</div>
+    </div>
+    <div class="loader-progress-bar">
+      <div class="loader-progress-fill"></div>
+    </div>
+  </div>
+
+  <!-- ===== PROGRESS BAR ===== -->
+  <div class="progress-bar-container">
+    <div class="progress-bar-fill"></div>
+    <div class="progress-checkpoints">
+      <div class="checkpoint" data-section="hero"><div class="checkpoint-dot"></div></div>
+      <div class="checkpoint" data-section="about"><div class="checkpoint-dot"></div></div>
+      <div class="checkpoint" data-section="skills"><div class="checkpoint-dot"></div></div>
+      <div class="checkpoint" data-section="projects"><div class="checkpoint-dot"></div></div>
+      <div class="checkpoint" data-section="education"><div class="checkpoint-dot"></div></div>
+      <div class="checkpoint" data-section="contact"><div class="checkpoint-dot"></div></div>
+    </div>
+  </div>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar">
+    <div class="nav-content">
+      <a href="#hero" class="nav-brand">PDP</a>
+      <div class="nav-right">
+        <a href="#about"     class="nav-link">About</a>
+        <a href="#skills"    class="nav-link">Skills</a>
+        <a href="#projects"  class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact"   class="nav-cta">Get in Touch!</a>
+        <button id="theme-toggle" class="theme-toggle-nav" aria-label="Toggle theme">
+          <i class="fas fa-moon"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-left">
+        <p class="hero-greeting" id="hero-greeting">Hi there! 👋</p>
+        <h1 class="hero-name">I'm <span>Prasun</span><br>Dev Pal.</h1>
+        <div class="hero-tagline">
+          <span id="typing-role">B.Tech CSE Student</span><span style="animation: blink 1s step-end infinite;">|</span>
+        </div>
+        <p class="hero-description">
+          A Computer Science & Engineering student from Uttar Pradesh, India 🇮🇳 — passionate about Software Development, Data Structures &amp; Algorithms, Cybersecurity, and Entrepreneurship. Currently building strong foundations and gearing up for internships.
+        </p>
+        <div class="hero-social">
+          <a href="https://www.linkedin.com/in/prasun-dev-pal-207344380" target="_blank" class="social-btn" title="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="mailto:palprasundev@gmail.com" class="social-btn" title="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="https://github.com/" target="_blank" class="social-btn" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <div class="hero-btns">
+          <a href="#projects" class="btn-primary">View Projects →</a>
+          <a href="#contact"  class="btn-secondary">Hire Me 🚀</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="hero-avatar-wrapper">
+          <div class="hero-avatar-box">
+            💻
+          </div>
+          <div class="hero-deco-1">⚡</div>
+          <div class="hero-deco-2">🔐</div>
+          <div class="status-badge">
+            <span class="status-dot"></span> Open to Internships
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PAPER TEAR -->
+  <div class="paper-tear">
+    <svg width="100%" height="28" viewBox="0 0 1440 28" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,0 L0,14 Q10,4 20,14 T40,14 Q50,4 60,14 T80,14 Q90,20 100,14 T120,14 Q130,8 140,14 T160,14 Q170,4 180,14 T200,14 Q210,18 220,14 T240,14 Q250,6 260,14 T280,14 Q290,16 300,14 T320,14 Q330,4 340,14 T360,14 Q370,10 380,14 T400,14 Q410,18 420,14 T440,14 Q450,5 460,14 T480,14 Q490,14 500,14 T520,14 Q530,6 540,14 T560,14 Q570,18 580,14 T600,14 Q610,8 620,14 T640,14 Q650,4 660,14 T680,14 Q690,16 700,14 T720,14 Q730,10 740,14 T760,14 Q770,5 780,14 T800,14 Q810,18 820,14 T840,14 Q850,7 860,14 T880,14 Q890,12 900,14 T920,14 Q930,4 940,14 T960,14 Q970,17 980,14 T1000,14 Q1010,9 1020,14 T1040,14 Q1050,4 1060,14 T1080,14 Q1090,15 1100,14 T1120,14 Q1130,6 1140,14 T1160,14 Q1170,11 1180,14 T1200,14 Q1210,18 1220,14 T1240,14 Q1250,5 1260,14 T1280,14 Q1290,14 1300,14 T1320,14 Q1330,8 1340,14 T1360,14 Q1370,4 1380,14 T1400,14 Q1410,16 1420,14 T1440,14 L1440,0 Z"
+        fill="#ffffff" stroke="none"/>
+    </svg>
+  </div>
+
+  <!-- ===== ABOUT ===== -->
+  <div class="section-wrapper-white" id="about">
+    <div class="section-inner">
+      <h2 class="section-title fade-in">ABOUT ME</h2>
+      <div class="about-grid fade-in">
+        <div class="card">
+          <p class="about-text">
+            I'm a <span class="highlight highlight-cyan">2nd Year B.Tech CSE student</span> at RV Institute of Technology, Uttar Pradesh, India 🇮🇳. I'm deeply motivated by the intersection of <span class="highlight highlight-yellow">technology, problem-solving, and entrepreneurship</span>.
+            <br><br>
+            My journey in Computer Science started with a curiosity about how things work — from writing my first C++ program to building practical applications. I'm actively sharpening my <span class="highlight highlight-pink">DSA skills</span>, exploring Cybersecurity fundamentals, and learning Python alongside my core coursework.
+            <br><br>
+            Beyond code, I enjoy exploring business, investing, leadership, and new technologies — always looking at the bigger picture. I believe great software is built by people who <span class="highlight highlight-cyan">think deeply and build consistently</span>.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-box" style="background: var(--cyan); border: 3px solid var(--border); box-shadow: 6px 6px 0 var(--border);">
+            <div class="stat-number">7.8</div>
+            <div class="stat-label">1st Semester SGPA</div>
+          </div>
+          <div class="stat-box" style="background: var(--yellow); border: 3px solid var(--border); box-shadow: 6px 6px 0 var(--border);">
+            <div class="stat-number">3+</div>
+            <div class="stat-label">Projects Built</div>
+          </div>
+          <div class="stat-box" style="background: var(--pink); border: 3px solid var(--border); box-shadow: 6px 6px 0 var(--border);">
+            <div class="stat-number">2nd</div>
+            <div class="stat-label">Year of B.Tech</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PAPER TEAR -->
+  <div class="paper-tear">
+    <svg width="100%" height="28" viewBox="0 0 1440 28" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,28 L0,14 Q12,24 24,14 T48,14 Q60,24 72,14 T96,14 Q108,4 120,14 T144,14 Q156,24 168,14 T192,14 Q204,8 216,14 T240,14 Q252,22 264,14 T288,14 Q300,6 312,14 T336,14 Q348,22 360,14 T384,14 Q396,6 408,14 T432,14 Q444,22 456,14 T480,14 Q492,5 504,14 T528,14 Q540,22 552,14 T576,14 Q588,7 600,14 T624,14 Q636,22 648,14 T672,14 Q684,5 696,14 T720,14 Q732,22 744,14 T768,14 Q780,6 792,14 T816,14 Q828,22 840,14 T864,14 Q876,6 888,14 T912,14 Q924,22 936,14 T960,14 Q972,6 984,14 T1008,14 Q1020,22 1032,14 T1056,14 Q1068,6 1080,14 T1104,14 Q1116,22 1128,14 T1152,14 Q1164,6 1176,14 T1200,14 Q1212,22 1224,14 T1248,14 Q1260,6 1272,14 T1296,14 Q1308,22 1320,14 T1344,14 Q1356,6 1368,14 T1392,14 Q1404,22 1416,14 T1440,14 L1440,28 Z"
+        fill="#ffd93d" stroke="none"/>
+    </svg>
+  </div>
+
+  <!-- ===== SKILLS ===== -->
+  <div class="section-wrapper" id="skills">
+    <div class="section-inner">
+      <h2 class="section-title fade-in">SKILLS</h2>
+      <div class="skills-grid fade-in">
+
+        <div class="skill-box">
+          <div class="skill-box-header">
+            <i class="fas fa-code skill-icon-large" style="color: #0ea5e9;"></i>
+            <h3 class="skill-box-title">Languages</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag cyan">C++</span>
+            <span class="skill-tag cyan">C</span>
+            <span class="skill-tag green">Python (Learning)</span>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-box-header">
+            <i class="fas fa-brain skill-icon-large" style="color: #8b5cf6;"></i>
+            <h3 class="skill-box-title">Core Subjects</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag yellow">DSA</span>
+            <span class="skill-tag yellow">COA</span>
+            <span class="skill-tag yellow">Discrete Structures</span>
+            <span class="skill-tag yellow">Cyber Security</span>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-box-header">
+            <i class="fas fa-tools skill-icon-large" style="color: #f59e0b;"></i>
+            <h3 class="skill-box-title">Tools & Platforms</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag pink">GitHub</span>
+            <span class="skill-tag pink">VS Code</span>
+            <span class="skill-tag pink">Linux Basics</span>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-box-header">
+            <i class="fas fa-shield-alt skill-icon-large" style="color: #ef4444;"></i>
+            <h3 class="skill-box-title">Interests</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag green">Cyber Security</span>
+            <span class="skill-tag green">Entrepreneurship</span>
+            <span class="skill-tag green">Problem Solving</span>
+            <span class="skill-tag green">Investing</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- PAPER TEAR -->
+  <div class="paper-tear">
+    <svg width="100%" height="28" viewBox="0 0 1440 28" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,0 L0,14 Q10,4 20,14 T40,14 Q50,4 60,14 T80,14 Q90,20 100,14 T120,14 Q130,8 140,14 T160,14 Q170,4 180,14 T200,14 Q210,18 220,14 T240,14 Q250,6 260,14 T280,14 Q290,16 300,14 T320,14 Q330,4 340,14 T360,14 Q370,10 380,14 T400,14 Q410,18 420,14 T440,14 Q450,5 460,14 T480,14 Q490,14 500,14 T520,14 Q530,6 540,14 T560,14 Q570,18 580,14 T600,14 Q610,8 620,14 T640,14 Q650,4 660,14 T680,14 Q690,16 700,14 T720,14 Q730,10 740,14 T760,14 Q770,5 780,14 T800,14 Q810,18 820,14 T840,14 Q850,7 860,14 T880,14 Q890,12 900,14 T920,14 Q930,4 940,14 T960,14 Q970,17 980,14 T1000,14 Q1010,9 1020,14 T1040,14 Q1050,4 1060,14 T1080,14 Q1090,15 1100,14 T1120,14 Q1130,6 1140,14 T1160,14 Q1170,11 1180,14 T1200,14 Q1210,18 1220,14 T1240,14 Q1250,5 1260,14 T1280,14 Q1290,14 1300,14 T1320,14 Q1330,8 1340,14 T1360,14 Q1370,4 1380,14 T1400,14 Q1410,16 1420,14 T1440,14 L1440,0 Z"
+        fill="#ffd93d" stroke="none"/>
+    </svg>
+  </div>
+
+  <!-- ===== PROJECTS ===== -->
+  <div class="section-wrapper-white" id="projects">
+    <div class="section-inner">
+      <h2 class="section-title fade-in">PROJECTS</h2>
+      <div class="projects-grid fade-in">
+
+        <div class="project-card">
+          <div class="project-emoji">🎓</div>
+          <h3 class="project-title">Student Management System</h3>
+          <p class="project-desc">A console-based application built in C++ for managing student records. Handles CRUD operations, data storage, and provides an organized interface for student data management.</p>
+          <div class="project-tech">
+            <span class="project-tag">C++</span>
+            <span class="project-tag">File I/O</span>
+            <span class="project-tag">OOP</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-emoji" style="background: var(--pink);">💰</div>
+          <h3 class="project-title">Expense Tracker</h3>
+          <p class="project-desc">A basic but functional expense management application to track and organize personal finances. Enables users to log, categorize, and review their daily expenses with ease.</p>
+          <div class="project-tech">
+            <span class="project-tag" style="background: var(--pink);">C++</span>
+            <span class="project-tag" style="background: var(--pink);">Data Management</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-emoji" style="background: var(--accent);">🌐</div>
+          <h3 class="project-title">Personal Portfolio Website</h3>
+          <p class="project-desc">Designed and developed a personal portfolio website to showcase skills, projects, and achievements. This very website you're looking at right now!</p>
+          <div class="project-tech">
+            <span class="project-tag" style="background: var(--accent);">HTML</span>
+            <span class="project-tag" style="background: var(--accent);">CSS</span>
+            <span class="project-tag" style="background: var(--accent);">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-emoji" style="background: var(--secondary);">🧩</div>
+          <h3 class="project-title">DSA Practice & Problem Solving</h3>
+          <p class="project-desc">Consistently solving algorithmic problems covering Arrays, Strings, Linked Lists, Stacks, Queues, Recursion, and Trees — building a strong foundation for competitive programming and placements.</p>
+          <div class="project-tech">
+            <span class="project-tag" style="background: var(--secondary);">C++</span>
+            <span class="project-tag" style="background: var(--secondary);">Algorithms</span>
+            <span class="project-tag" style="background: var(--secondary);">Data Structures</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- PAPER TEAR -->
+  <div class="paper-tear">
+    <svg width="100%" height="28" viewBox="0 0 1440 28" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,28 L0,14 Q12,24 24,14 T48,14 Q60,24 72,14 T96,14 Q108,4 120,14 T144,14 Q156,24 168,14 T192,14 Q204,8 216,14 T240,14 Q252,22 264,14 T288,14 Q300,6 312,14 T336,14 Q348,22 360,14 T384,14 Q396,6 408,14 T432,14 Q444,22 456,14 T480,14 Q492,5 504,14 T528,14 Q540,22 552,14 T576,14 Q588,7 600,14 T624,14 Q636,22 648,14 T672,14 Q684,5 696,14 T720,14 Q732,22 744,14 T768,14 Q780,6 792,14 T816,14 Q828,22 840,14 T864,14 Q876,6 888,14 T912,14 Q924,22 936,14 T960,14 Q972,6 984,14 T1008,14 Q1020,22 1032,14 T1056,14 Q1068,6 1080,14 T1104,14 Q1116,22 1128,14 T1152,14 Q1164,6 1176,14 T1200,14 Q1212,22 1224,14 T1248,14 Q1260,6 1272,14 T1296,14 Q1308,22 1320,14 T1344,14 Q1356,6 1368,14 T1392,14 Q1404,22 1416,14 T1440,14 L1440,28 Z"
+        fill="#66d9ef" stroke="none"/>
+    </svg>
+  </div>
+
+  <!-- ===== EDUCATION ===== -->
+  <div class="section-wrapper-cyan" id="education">
+    <div class="section-inner">
+      <h2 class="section-title fade-in">EDUCATION</h2>
+      <div class="edu-card fade-in">
+        <div class="edu-header">
+          <div class="edu-icon">🏛️</div>
+          <div>
+            <h3 class="edu-degree">B.Tech in Computer Science & Engineering</h3>
+            <p class="edu-school">RV Institute of Technology, Uttar Pradesh, India</p>
+            <div class="edu-details">
+              <span class="edu-badge year">2nd Year · 3rd Semester</span>
+              <span class="edu-badge grade">1st Sem SGPA: 7.8 (78%)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <h2 class="section-title fade-in" style="margin-top: 1rem;">CAREER OBJECTIVE</h2>
+      <div class="objective-card fade-in">
+        <p class="objective-text">
+          Motivated Computer Science & Engineering student with a strong interest in Software Development, Data Structures & Algorithms, Problem Solving, Cyber Security, and Entrepreneurship. Currently focused on building programming skills, strengthening core computer science concepts, and <strong>preparing for internships and software engineering opportunities</strong>.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- PAPER TEAR -->
+  <div class="paper-tear">
+    <svg width="100%" height="28" viewBox="0 0 1440 28" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,0 L0,14 Q10,4 20,14 T40,14 Q50,4 60,14 T80,14 Q90,20 100,14 T120,14 Q130,8 140,14 T160,14 Q170,4 180,14 T200,14 Q210,18 220,14 T240,14 Q250,6 260,14 T280,14 Q290,16 300,14 T320,14 Q330,4 340,14 T360,14 Q370,10 380,14 T400,14 Q410,18 420,14 T440,14 Q450,5 460,14 T480,14 Q490,14 500,14 T520,14 Q530,6 540,14 T560,14 Q570,18 580,14 T600,14 Q610,8 620,14 T640,14 Q650,4 660,14 T680,14 Q690,16 700,14 T720,14 Q730,10 740,14 T760,14 Q770,5 780,14 T800,14 Q810,18 820,14 T840,14 Q850,7 860,14 T880,14 Q890,12 900,14 T920,14 Q930,4 940,14 T960,14 Q970,17 980,14 T1000,14 Q1010,9 1020,14 T1040,14 Q1050,4 1060,14 T1080,14 Q1090,15 1100,14 T1120,14 Q1130,6 1140,14 T1160,14 Q1170,11 1180,14 T1200,14 Q1210,18 1220,14 T1240,14 Q1250,5 1260,14 T1280,14 Q1290,14 1300,14 T1320,14 Q1330,8 1340,14 T1360,14 Q1370,4 1380,14 T1400,14 Q1410,16 1420,14 T1440,14 L1440,0 Z"
+        fill="#66d9ef" stroke="none"/>
+    </svg>
+  </div>
+
+  <!-- ===== SOFT SKILLS ===== -->
+  <div class="section-wrapper-white">
+    <div class="section-inner">
+      <h2 class="section-title fade-in">SOFT SKILLS</h2>
+      <div class="soft-skills-grid fade-in">
+        <div class="soft-skill-item" style="background: var(--yellow);">🎯 Leadership</div>
+        <div class="soft-skill-item" style="background: var(--cyan);">💬 Communication</div>
+        <div class="soft-skill-item" style="background: var(--pink);">🤝 Teamwork</div>
+        <div class="soft-skill-item" style="background: var(--accent);">⏱️ Time Management</div>
+        <div class="soft-skill-item" style="background: var(--yellow);">🔄 Adaptability</div>
+        <div class="soft-skill-item" style="background: var(--cyan);">🧠 Critical Thinking</div>
+        <div class="soft-skill-item" style="background: var(--pink);">🔍 Problem Solving</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PAPER TEAR -->
+  <div class="paper-tear">
+    <svg width="100%" height="28" viewBox="0 0 1440 28" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,28 L0,14 Q12,24 24,14 T48,14 Q60,24 72,14 T96,14 Q108,4 120,14 T144,14 Q156,24 168,14 T192,14 Q204,8 216,14 T240,14 Q252,22 264,14 T288,14 Q300,6 312,14 T336,14 Q348,22 360,14 T384,14 Q396,6 408,14 T432,14 Q444,22 456,14 T480,14 Q492,5 504,14 T528,14 Q540,22 552,14 T576,14 Q588,7 600,14 T624,14 Q636,22 648,14 T672,14 Q684,5 696,14 T720,14 Q732,22 744,14 T768,14 Q780,6 792,14 T816,14 Q828,22 840,14 T864,14 Q876,6 888,14 T912,14 Q924,22 936,14 T960,14 Q972,6 984,14 T1008,14 Q1020,22 1032,14 T1056,14 Q1068,6 1080,14 T1104,14 Q1116,22 1128,14 T1152,14 Q1164,6 1176,14 T1200,14 Q1212,22 1224,14 T1248,14 Q1260,6 1272,14 T1296,14 Q1308,22 1320,14 T1344,14 Q1356,6 1368,14 T1392,14 Q1404,22 1416,14 T1440,14 L1440,28 Z"
+        fill="#ff6b9d" stroke="none"/>
+    </svg>
+  </div>
+
+  <!-- ===== CONTACT ===== -->
+  <div class="section-wrapper-pink" id="contact">
+    <div class="section-inner">
+      <h2 class="section-title-center fade-in">GET IN TOUCH</h2>
+      <p style="text-align:center; font-size:1.05rem; font-weight:600; margin-bottom:2rem; color:#000;" class="fade-in">
+        Open to internships, collaborations, and interesting conversations 🚀
+      </p>
+      <div class="contact-grid fade-in">
+
+        <a href="mailto:palprasundev@gmail.com" class="contact-item">
+          <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+          <div>
+            <div class="contact-label">Email</div>
+            <div class="contact-value">palprasundev@gmail.com</div>
+          </div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/prasun-dev-pal-207344380" target="_blank" class="contact-item">
+          <div class="contact-icon" style="background: var(--cyan);"><i class="fab fa-linkedin"></i></div>
+          <div>
+            <div class="contact-label">LinkedIn</div>
+            <div class="contact-value">prasun-dev-pal-207344380</div>
+          </div>
+        </a>
+
+        <a href="https://github.com/" target="_blank" class="contact-item">
+          <div class="contact-icon" style="background: var(--accent);"><i class="fab fa-github"></i></div>
+          <div>
+            <div class="contact-label">GitHub</div>
+            <div class="contact-value">github.com/prasundevpal</div>
+          </div>
+        </a>
+
+        <div class="contact-item" style="cursor: default;">
+          <div class="contact-icon" style="background: var(--yellow);"><i class="fas fa-map-marker-alt"></i></div>
+          <div>
+            <div class="contact-label">Location</div>
+            <div class="contact-value">Uttar Pradesh, India 🇮🇳</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>Built with ❤️ by <strong>Prasun Dev Pal</strong> &nbsp;·&nbsp; 
+       <a href="mailto:palprasundev@gmail.com">palprasundev@gmail.com</a> &nbsp;·&nbsp;
+       <a href="https://www.linkedin.com/in/prasun-dev-pal-207344380" target="_blank">LinkedIn</a>
+    </p>
+    <p style="margin-top:0.5rem; opacity:0.5; font-size:0.7rem;">© 2026 Prasun Dev Pal. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
